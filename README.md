@@ -326,18 +326,18 @@ Ou
 
 # Astuce Hostname :
 
-* 1. vérifier votre hostname actuelle
+-1 vérifier votre hostname actuelle
 casagency@DESKTOP-ABC222:~$ hostname
 DESKTOP-ABC222
 
 DESKTOP-ABC222 étant par exemple votre hostname linux ubuntu ou kali sur Windows 10 WSL.
 
-* 2. nano /etc/wsl.conf
+-2 nano /etc/wsl.conf
 
 casagency@DESKTOP-ABC222:~$ sudo nano /etc/wsl.conf
 [sudo] password for casagency:
 
-* 3. Add following lines in /etc/wsl.conf.
+-3 Add following lines in /etc/wsl.conf.
 [network]
 hostname = casagency
 generateHosts = false
@@ -350,7 +350,7 @@ key value   default notes
 generateHosts   boolean true    true sets WSL to generate /etc/hosts. The hosts file contains a static map of hostnames corresponding IP address.
 Reference: https://docs.microsoft.com/en-us/windows/wsl/wsl-config#network
 
-* 4. Ouvrir /etc/hosts pour un update
+-4 Ouvrir /etc/hosts pour un update
 casagency@casagency:~$ sudo nano /etc/hosts
 
 
@@ -375,7 +375,6 @@ ff02::2 ip6-allrouters
 chercher le hostname (e.g. "DESKTOP-ABC222") pour le remplacer par exemple (e.g. "casagency").
 
 127.0.1.1       casagency.localdomain     casagency
-
 
 
 # FIN
