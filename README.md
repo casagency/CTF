@@ -322,9 +322,6 @@ Ou
 
 `PS C:\> Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False`
   
- 
-
-# Astuce Hostname :
 
 -1 vérifier votre hostname actuelle
 casagency@DESKTOP-ABC222:~$ hostname
