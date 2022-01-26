@@ -24,7 +24,7 @@ L’opération a réussi.
   
 Ouvrir ensuite un CMD en tant qu'**administrateur**
 
-### Définir la version 2 par défaut pour les nouvelles machines
+### Définir la version 1 par défaut pour installer kali car sous la version 2 celle-ci ne fonctionne pas
 `C:\>wsl --set-default-version 1`    
 
 *Pour plus d’informations sur les différences de clés avec WSL 2, visitez https://aka.ms/wsl2  
@@ -66,6 +66,12 @@ Voici la liste des distributions valides qui peuvent être installées.
     Retype new password:  
     passwd: password updated successfully  
     Installation successful!
+
+
+### Convertir le kali
+        wsl --set-version kali-linux 2
+        puis si connecter
+        wsl -d kali-linux
   
   
 ### Vérifier qu'on est bien en WSL2
