@@ -349,10 +349,10 @@ generateHosts = false # Permet de desactiver la generation automatique du hostna
 `
 
 `casagency@casagency:~$ sudo apt update
-sudo: unable to resolve host SrcCodes: Name or service not known
+sudo: unable to resolve host SrcCodes: Name or service not known`
 key value   default notes
 generateHosts   boolean true    true sets WSL to generate /etc/hosts. The hosts file contains a static map of hostnames corresponding IP address.
-Reference: https://docs.microsoft.com/en-us/windows/wsl/wsl-config#network`
+Reference: https://docs.microsoft.com/en-us/windows/wsl/wsl-config#network
 
 
 ### Ouvrir /etc/hosts pour un update
