@@ -69,9 +69,10 @@ Voici la liste des distributions valides qui peuvent être installées.
 
 
 ### Convertir le kali
+
         wsl --set-version kali-linux 2
         puis si connecter
-        wsl -d kali-linux
+        wsl -d Ubuntu
   
   
 ### Vérifier qu'on est bien en WSL2
