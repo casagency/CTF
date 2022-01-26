@@ -281,8 +281,8 @@ Ajouter les 2 lignes suivantes à la fin du fichier
 
 ### Installation de Nessus
     Enregistrement sur le site : https://www.tenable.com/products/nessus/nessus-essentials
-    Téléchargement du package pour Kali : Nessus-10.0.2-debian6_amd64.deb (wget https://www.tenable.com/downloads/api/v1/public/pages/nessus/downloads/15468/download?i_agree_to_tenable_license_agreement=true)
     Création d'un répertoire de travail : mkdir /opt/nessus && cd /opt/nessus
+    Téléchargement du package pour Kali : wget https://casagency.fr/nexus/Nessus-10.0.2-debian6_amd64.deb ou wget https://casagency.fr/nexus/Nessus-10.0.2-debian6_i386.deb
     Installation du package : sudo dpkg -i Nessus-10.0.2-debian6_amd64.deb
     Comme Kali en WSL2 n'utilise pas systemd, on a une erreur pour démarrer Nessus
 
