@@ -207,8 +207,8 @@ Ajouter les 2 lignes suivantes à la fin du fichier
 
 ### Récupération de WinPeas
     cd /opt/windows
-    wget https://github.com/carlospolop/PEASS-ng/raw/master/winPEAS/winPEASexe/binaries/x86/Release/winPEASx86.exe
-    wget https://github.com/carlospolop/PEASS-ng/raw/master/winPEAS/winPEASexe/binaries/x64/Release/winPEASx64.exe
+    wget https://github.com/casagency/casscripts/blob/main/PEASS-ng/winPEASx86.exe
+    wget https://github.com/casagency/casscripts/blob/main/PEASS-ng/winPEASx64.exe
 
 ### Téléchargement de psexec
     cd /opt/windows
