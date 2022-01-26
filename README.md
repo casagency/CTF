@@ -328,28 +328,29 @@ Ou
 
 ### Vérifier votre hostname actuelle
 
-`casagency@DESKTOP-ABC222:~$ hostname
-DESKTOP-ABC222`
+    `casagency@DESKTOP-ABC222:~$ hostname
+    DESKTOP-ABC222`
 
 DESKTOP-ABC222 étant par exemple votre hostname linux ubuntu ou kali sur Windows 10 WSL.
 
 ### Editer le fichier nano /etc/wsl.conf
 
-`casagency@DESKTOP-ABC222:~$ sudo nano /etc/wsl.conf
-[sudo] password for casagency:`
+    `casagency@DESKTOP-ABC222:~$ sudo nano /etc/wsl.conf
+    [sudo] password for casagency:`
 
 
 ### Ajouter les ligne suivantes au fichier /etc/wsl.conf.
 
-`[network]
-hostname = casagency
-generateHosts = false
-hostname = casagency #casagency etant le nom que je veux lui donné
-generateHosts = false # Permet de desactiver la generation automatique du hostname
-`
+    `[network]
+    hostname = casagency
+    generateHosts = false
+    hostname = casagency #casagency etant le nom que je veux lui donné
+    generateHosts = false # Permet de desactiver la generation automatique du hostname
+    `
 
-`casagency@casagency:~$ sudo apt update
-sudo: unable to resolve host SrcCodes: Name or service not known`
+    `casagency@casagency:~$ sudo apt update
+    sudo: unable to resolve host SrcCodes: Name or service not known`
+    
 key value   default notes
 generateHosts   boolean true    true sets WSL to generate /etc/hosts. The hosts file contains a static map of hostnames corresponding IP address.
 Reference: https://docs.microsoft.com/en-us/windows/wsl/wsl-config#network
@@ -378,7 +379,7 @@ Reference: https://docs.microsoft.com/en-us/windows/wsl/wsl-config#network
 
 
 ### Chercher le hostname (e.g. "DESKTOP-ABC222") pour le remplacer par exemple (e.g. "casagency").
-`127.0.1.1       casagency.localdomain     casagency`
+    `127.0.1.1       casagency.localdomain     casagency`
 
 
 # FIN
