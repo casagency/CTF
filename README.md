@@ -351,10 +351,8 @@ DESKTOP-ABC222 étant par exemple votre hostname linux ubuntu ou kali sur Window
 ### Ajouter les ligne suivantes au fichier /etc/wsl.conf.
 
     [network]
-    hostname = casagency
+    hostname = SrcCodes
     generateHosts = false
-    hostname = casagency #casagency etant le nom que je veux lui donné
-    generateHosts = false # Permet de desactiver la generation automatique du hostname
     
     casagency@casagency:~$ sudo apt update
     sudo: unable to resolve host SrcCodes: Name or service not known
