@@ -227,7 +227,7 @@ Ajouter les 2 lignes suivantes à la fin du fichier
 
 ### Récupération de LinPeas
     cd /opt/linux/privesc
-    wget https://raw.githubusercontent.com/carlospolop/PEASS-ng/master/linPEAS/linpeas.sh
+    wget https://github.com/casagency/casscripts/blob/main/PEASS-ng/linpeas.sh
 
 ### Récupération de PowerUp
     cd /opt/windows/privesc
